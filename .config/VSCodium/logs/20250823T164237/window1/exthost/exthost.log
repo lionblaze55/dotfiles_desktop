@@ -17,3 +17,5 @@
 2025-08-23 16:43:00.880 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
 2025-08-23 16:43:00.968 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
 2025-08-23 16:43:01.037 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-23 16:52:43.440 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-23 16:52:43.444 [info] Extension host with pid 24961 exiting with code 0

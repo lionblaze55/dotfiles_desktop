@@ -9,11 +9,7 @@
                 "folderUri": "file:///mnt/z/pods/workpod/a/rc/dotfiles_desktop"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1755981758352"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -46,7 +42,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 239,
+            "sideBarWidth": 361,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -60,7 +56,7 @@
                 "mode": 0,
                 "x": 3842,
                 "y": 55,
-                "width": 1126,
+                "width": 864,
                 "height": 1023
             }
         },
@@ -68,7 +64,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 239,
+            "sideBarWidth": 361,
             "auxiliaryBarWidth": 300,
             "workspaces": {
                 "9774a2e00cebc65f72ed91bd289ec846": {
