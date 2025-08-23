@@ -1,4 +1,0 @@
-2025-08-23 16:42:38.689 [info] Log level: Info
-2025-08-23 16:42:58.669 [info] Log level: Info
-2025-08-23 16:43:01.079 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-08-23 16:43:02.609 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for lionblaze55/dotfiles_desktop: Error: No GitHub authentication session available.
