@@ -19,6 +19,9 @@ set $term foot
 #set $menu wmenu-run
 set $menu fuzzel
 
+#set file explorer
+set $file thunar
+
 include /etc/sway/config-vars.d/*
 
 ### Output configuration
