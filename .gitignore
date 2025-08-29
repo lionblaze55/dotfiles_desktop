@@ -1,2 +1,3 @@
 .config/VSCodium/
 .config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+.config/dconf/user

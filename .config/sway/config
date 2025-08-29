@@ -18,9 +18,10 @@ set $term foot
 # Your preferred application launcher
 #set $menu wmenu-run
 set $menu fuzzel
-
-#set file explorer
+# Your prefered file explorer
 set $file thunar
+# your favorite web browser
+set $browser flatpak run com.brave.Browser
 
 include /etc/sway/config-vars.d/*
 
@@ -74,8 +75,6 @@ exec swayidle -w
 #
 # Basics:
 #
-    # Power button
-    bindsym XF86PowerOff exec systemctl suspend
     # Start a terminal
     bindsym $mod+Return exec $term
 
