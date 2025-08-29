@@ -266,7 +266,7 @@ workspace 1 output DP-1
 workspace 2 output DP-2
 
 #screenshot util
-bindsym Print exec grimshot copy output
-bindsym Shift+Print exec grimshot copy area
+bindsym Print exec grimshot copy area
+bindsym Shift+Print exec grimshot copy output
 
 include /etc/sway/config.d/*
