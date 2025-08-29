@@ -111,3 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+alias ll='ls -l'
+alias cdc='cd ~/a/rc/dotfiles_desktop'
