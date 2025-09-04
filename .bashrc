@@ -113,4 +113,6 @@ if ! shopt -oq posix; then
 fi
 
 alias ll='ls -l'
-alias cdc='cd ~/a/rc/dotfiles_desktop'
+#alias cdc='cd ~/a/rc/dotfiles_desktop'
+alias cdl="cd ~/a/rc/dotfiles_laptop"
+alias cdd="cd ~/a/rc/dotfiles_desktop"
