@@ -249,12 +249,14 @@ output DP-2 pos 3840 0 res 1920x1080@144.001Hz
 output DP-1 pos 1920 0 res 1920x1080@240.000Hz adaptive_sync on max_render_time off
 
 # POLKIT
+# Deprecated on atomic-j
+#exec lxqt-policykit-agent
 
-exec lxqt-policykit-agent
+exec bluebuild-flatpak-manager apply all
 
 #syncthing launh
 
-exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser
+exec_always /var/home/jfaber/a/install/syncthing/syncthing --no-browser
 
 #Wallpaper set
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
