@@ -252,17 +252,19 @@ output DP-1 pos 1920 0 res 1920x1080@240.000Hz adaptive_sync on max_render_time 
 # Deprecated on atomic-j
 #exec lxqt-policykit-agent
 
+#Network applet
+exec --no-startup-id nm-applet --indicator
+
+# Bluebuild flatpak management
 exec bluebuild-flatpak-manager apply all
 
-#syncthing launh
-
+#syncthing launch
 exec_always /var/home/jfaber/a/install/syncthing/syncthing --no-browser
 
 #Wallpaper set
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
 
 # Set where the two first workspaces spawn
-
 workspace 1 output DP-1
 workspace 2 output DP-2
 
