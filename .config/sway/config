@@ -261,7 +261,8 @@ exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
 
 #Notification setup
-exec swaync
+exec swaync 
+bindsym $mod+Shift+n exec swaync-client -t -sw
 
 # Set where the two first workspaces spawn
 workspace 1 output DP-1
