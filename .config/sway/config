@@ -260,6 +260,9 @@ exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser
 #Wallpaper set
 exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
 
+#Notification setup
+exec swaync
+
 # Set where the two first workspaces spawn
 workspace 1 output DP-1
 workspace 2 output DP-2
