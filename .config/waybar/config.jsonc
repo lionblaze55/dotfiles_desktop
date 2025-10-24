@@ -214,8 +214,8 @@
 		"menu-actions": {
 			"shutdown": "systemctl poweroff",
 			"reboot": "systemctl reboot",
-			"suspend": "systemctl suspend"
-		//	"hibernate": "systemctl hibernate"
+			"suspend": "systemctl suspend",
+//			"hibernate": "systemctl hibernate"
 		}
     }
 }

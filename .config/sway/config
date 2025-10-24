@@ -272,4 +272,6 @@ workspace 2 output DP-2
 bindsym Print exec grimshot copy area
 bindsym Shift+Print exec grimshot copy output
 
+#font pango:"Noto Sans Mono Font" Regular 11
+
 include /etc/sway/config.d/*
