@@ -264,6 +264,8 @@ exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m f
 exec swaync 
 bindsym $mod+Shift+n exec swaync-client -t -sw
 
+#Bluetooth stuff
+exec blueman-applet
 # Set where the two first workspaces spawn
 workspace 1 output DP-1
 workspace 2 output DP-2
