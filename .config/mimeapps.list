@@ -7,6 +7,7 @@ text/plain=org.kde.kate.desktop;
 text/css=org.kde.kate.desktop;
 image/jpeg=org.kde.gwenview.desktop;
 text/x-csrc=org.kde.kate.desktop;
+application/pdf=org.kde.okular.desktop;com.brave.Browser.desktop;
 
 [Default Applications]
 image/jpeg=org.kde.gwenview.desktop
