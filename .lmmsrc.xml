@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-config-file>
+<lmms version="1.2.2">
+  <MidiAlsaRaw device="default"/>
+  <MidiJack device="lmms"/>
+  <Midialsaseq device="default"/>
+  <app nanhandler="1" disablebackup="0" nomsgaftersetup="0" displaydbfs="0" configured="1" openlastproject="0" language="en" nommpz="0"/>
+  <audioalsa channels="2" device="null"/>
+  <audiojack channels="2" clientname="lmms"/>
+  <audiooss channels="2" device="/dev/dsp"/>
+  <audiopa channels="2" device="default"/>
+  <audioportaudio device="" backend=""/>
+  <audiosdl device=""/>
+  <midioss device="/dev/midi"/>
+  <mixer framesperaudiobuffer="256" hqaudio="0" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" audiodev="SDL (Simple DirectMedia Layer)"/>
+  <paths backgroundartwork="" gigdir="/home/jfaber/a/media/audio/lmms/samples/gig/" stkdir="/app/share/stk/rawwaves/" sf2dir="/home/jfaber/a/media/audio/lmms/samples/soundfonts/" defaultsf2="" laddir="/home/jfaber/a/media/audio/lmms/plugins/ladspa/" vstdir="/home/jfaber/a/media/audio/lmms/plugins/vst/" artwork="data:/themes/default/" workingdir="/home/jfaber/a/media/audio/lmms/"/>
+  <tooltips disabled="0"/>
+  <ui oneinstrumenttrackwindow="0" enableautosave="1" disableautoquit="1" saveinterval="2" vstalwaysontop="0" animateafp="1" printnotelabels="0" enablerunningautosave="0" compacttrackbuttons="0" syncvstplugins="1" displaywaveform="0" smoothscroll="0" vstembedmethod="xembed"/>
+  <recentfiles>
+    <file path="data:/projects/templates/default.mpt"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/2025firstproj.mmpz"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/2025secondprioj.mmpz"/>
+  </recentfiles>
+</lmms>
