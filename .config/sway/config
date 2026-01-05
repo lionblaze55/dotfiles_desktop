@@ -11,15 +11,11 @@ set $left h
 set $down j
 set $up k
 set $right l
-# Your preferred terminal emulator
-set $term foot
-# Your preferred application launcher
-#set $menu wmenu-run
-set $menu fuzzel
-# Your prefered file explorer
-set $file thunar
-# your favorite web browser
-set $browser flatpak run com.brave.Browser
+
+set $term foot                              # Terminal
+set $menu fuzzel                            # Launcher
+set $file thunar                            # File Manager
+set $browser flatpak run com.brave.Browser  # Browser
 
 include /etc/sway/config-vars.d/*
 
