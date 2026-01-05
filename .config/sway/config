@@ -248,24 +248,14 @@ output DP-3 pos 0 0 res 1920x1080@143.993Hz disable
 output DP-2 pos 3840 0 res 1920x1080@144.001Hz
 output DP-1 pos 1920 0 res 1920x1080@240.000Hz adaptive_sync on max_render_time off
 
-# POLKIT
-exec lxqt-policykit-agent
 
-#Network applet
-exec --no-startup-id nm-applet --indicator
+exec lxqt-policykit-agent                                                               # POLKIT
+exec nm-applet --indicator                                                              #Network applet
+exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser                     #Syncthing launch
+exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"    #Wallpaper set
+exec swaync && bindsym $mod+Shift+n exec swaync-client -t -sw                           #Notification setup
+exec sleep 5 && blueman-applet                                                          #Bluetooth stuff
 
-#syncthing launch
-exec_always /home/jfaber/a/install/syncthing/syncthing --no-browser
-
-#Wallpaper set
-exec_always "swaybg -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg -m fill"
-
-#Notification setup
-exec swaync 
-bindsym $mod+Shift+n exec swaync-client -t -sw
-
-#Bluetooth stuff
-exec --no-startup-id blueman-applet
 # Set where the two first workspaces spawn
 workspace 1 output DP-1
 workspace 2 output DP-2
