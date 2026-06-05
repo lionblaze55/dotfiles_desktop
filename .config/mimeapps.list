@@ -11,6 +11,7 @@ application/pdf=org.kde.okular.desktop;com.brave.Browser.desktop;
 application/xml=org.kde.kate.desktop;
 image/gif=org.kde.okular.desktop;org.kde.gwenview.desktop;
 application/x-zerosize=org.kde.kate.desktop;
+text/html=org.kde.kate.desktop;
 
 [Default Applications]
 inode/directory=thunar.desktop
