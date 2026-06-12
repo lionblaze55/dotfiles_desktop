@@ -119,3 +119,4 @@ alias cdl="cd ~/a/rc/dotfiles_laptop"
 alias cdd="cd ~/a/rc/dotfiles_desktop"
 
 export XDG_CURRENT_DESKTOP="sway"
+export PATH=$HOME/.local/bin:$PATH
