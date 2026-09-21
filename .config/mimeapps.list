@@ -1,13 +1,13 @@
 [Added Associations]
 application/x-bittorrent=org.qbittorrent.qBittorrent.desktop;
 inode/directory=thunar.desktop
-x-scheme-handler/http=com.brave.Browser.desktop
-x-scheme-handler/https=com.brave.Browser.desktop
+x-scheme-handler/http=org.mozilla.firefox
+x-scheme-handler/https=org.mozilla.firefox
 text/plain=org.kde.kate.desktop;
 text/css=org.kde.kate.desktop;
 image/jpeg=org.kde.gwenview.desktop;
 text/x-csrc=org.kde.kate.desktop;
-application/pdf=org.kde.okular.desktop;com.brave.Browser.desktop;
+application/pdf=org.kde.okular.desktop;org.mozilla.firefox;
 application/xml=org.kde.kate.desktop;
 image/gif=org.kde.okular.desktop;org.kde.gwenview.desktop;
 application/x-zerosize=org.kde.kate.desktop;

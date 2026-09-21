@@ -15,7 +15,7 @@ set $right l
 set $term foot                              # Terminal
 set $menu fuzzel                            # Launcher
 set $file thunar                            # File Manager
-set $browser flatpak run com.brave.Browser  # Browser
+set $browser flatpak run org.mozilla.firefox  # Browser
 
 include /etc/sway/config-vars.d/*
 

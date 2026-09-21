@@ -4,21 +4,22 @@
   <MidiAlsaRaw device="default"/>
   <MidiJack device="lmms"/>
   <Midialsaseq device="default"/>
-  <app nommpz="0" disablebackup="0" configured="1" language="en" nanhandler="1" displaydbfs="0" nomsgaftersetup="0" openlastproject="0"/>
-  <audioalsa device="null" channels="2"/>
-  <audiojack clientname="lmms" channels="2"/>
-  <audiooss device="/dev/dsp" channels="2"/>
-  <audiopa device="default" channels="2"/>
+  <app nomsgaftersetup="0" nanhandler="1" nommpz="0" configured="1" disablebackup="0" language="en" openlastproject="0" displaydbfs="0"/>
+  <audioalsa channels="2" device="null"/>
+  <audiojack channels="2" clientname="lmms"/>
+  <audiooss channels="2" device="/dev/dsp"/>
+  <audiopa channels="2" device="default"/>
   <audioportaudio device="" backend=""/>
   <audiosdl device=""/>
   <midioss device="/dev/midi"/>
-  <mixer audiodev="SDL (Simple DirectMedia Layer)" framesperaudiobuffer="256" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)" hqaudio="0"/>
-  <paths gigdir="/home/jfaber/a/media/audio/lmms/samples/gig/" sf2dir="/home/jfaber/a/media/audio/lmms/samples/soundfonts/" defaultsf2="" laddir="/home/jfaber/a/media/audio/lmms/plugins/ladspa/" vstdir="/home/jfaber/a/media/audio/lmms/plugins/vst/" backgroundartwork="" stkdir="/app/share/stk/rawwaves/" artwork="data:/themes/default/" workingdir="/home/jfaber/a/media/audio/lmms/"/>
+  <mixer hqaudio="0" audiodev="SDL (Simple DirectMedia Layer)" framesperaudiobuffer="256" mididev="ALSA-Sequencer (Advanced Linux Sound Architecture)"/>
+  <paths laddir="/home/jfaber/a/media/audio/lmms/plugins/ladspa/" defaultsf2="" sf2dir="/home/jfaber/a/media/audio/lmms/samples/soundfonts/" gigdir="/home/jfaber/a/media/audio/lmms/samples/gig/" stkdir="/app/share/stk/rawwaves/" workingdir="/home/jfaber/a/media/audio/lmms/" vstdir="/home/jfaber/a/media/audio/lmms/plugins/vst/" backgroundartwork="" artwork="/home/jfaber/a/media/audio/lmms/themes/Cameleon/"/>
   <tooltips disabled="0"/>
-  <ui smoothscroll="0" animateafp="1" displaywaveform="0" saveinterval="2" printnotelabels="0" oneinstrumenttrackwindow="0" compacttrackbuttons="0" vstembedmethod="xembed" enableautosave="1" disableautoquit="1" vstalwaysontop="0" enablerunningautosave="0" syncvstplugins="1"/>
+  <ui vstalwaysontop="0" enableautosave="1" enablerunningautosave="0" animateafp="1" printnotelabels="0" syncvstplugins="1" saveinterval="2" disableautoquit="1" vstembedmethod="xembed" compacttrackbuttons="0" smoothscroll="0" displaywaveform="0" oneinstrumenttrackwindow="0"/>
   <recentfiles>
-    <file path="/home/jfaber/a/media/audio/lmms/projects/beatnew267777777.mmpz"/>
     <file path="data:/projects/templates/default.mpt"/>
+    <file path="/home/jfaber/a/media/audio/lmms/recover.mmp"/>
+    <file path="/home/jfaber/a/media/audio/lmms/projects/beatnew267777777.mmpz"/>
     <file path="/home/jfaber/a/media/audio/lmms/projects/2025firstproj.mmpz"/>
     <file path="/home/jfaber/a/media/audio/lmms/projects/2025secondprioj.mmpz"/>
   </recentfiles>
