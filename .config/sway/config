@@ -245,6 +245,7 @@ output DP-1 pos 1920 0 res 1920x1080@240.000Hz adaptive_sync on max_render_time 
 
 exec lxqt-policykit-agent                                                               # POLKIT
 exec nm-applet --indicator                                                              #Network applet
+exec /home/jfaber/.config/pipewire/set-gaming-volumes.sh                                #set volume                      
 exec /home/jfaber/a/install/syncthing/syncthing --no-browser                     #Syncthing launch
 exec swaybg -m fill -i /home/jfaber/a/media/images/wallpapers/wallpaper.jpg    #Wallpaper set
 exec swaync
